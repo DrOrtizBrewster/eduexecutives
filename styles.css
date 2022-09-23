@@ -11,7 +11,7 @@ body {
 nav {
     overflow: hidden;
     background-color: rgb(24, 9, 106);
-    max-width: 55%;
+    max-width: 75%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -67,7 +67,7 @@ footer {
     text-decoration-color: white;
     overflow: hidden;
     background-color: rgb(24, 9, 106);
-    max-width: 55%;
+    max-width: 75%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
