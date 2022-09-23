@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+    background-color: snow;
+}
+nav {
+   border: 10px solid black; 
+}
+h1 {
+    text-align: center
+}
+ul {
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: none;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
