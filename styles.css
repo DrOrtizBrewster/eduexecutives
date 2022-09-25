@@ -47,6 +47,8 @@ img {
 }
 #Expertise {
     background-color: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 li {
     overflow: hidden;
@@ -62,10 +64,9 @@ li {
     text-decoration: none;
 }
 footer {
-    background-color: black;
     text-align: center;
     padding: 10px;
-    text-decoration-color: white;
+    color: white;
     overflow: hidden;
     background-color: rgb(24, 9, 106);
     max-width: 75%;
@@ -76,5 +77,6 @@ footer {
 }
 p {
     text-align: center;
-    color: white;
+    color: white
+    float: margin-right
 }
