@@ -13,6 +13,38 @@
 				<li><a href="#">Partnerships</a></li>
                 <li><a href="#">Contact Us</a></li> 
              </nav>
+        
+             <button onclick="myFunction()">Hello</button>
+
+        <script>
+        function myFunction() {
+           alert("Hello, Classmates");
+        }
+        </script>
+
+        <script>
+            function myFunction() {
+              let text;
+              let person = prompt("Please enter your name:", "Harry Potter");
+              if (person == null || person == "") {
+                text = "User cancelled the prompt.";
+              } else {
+                text = "Hello " + person + "! How are you today?";
+              }
+              document.getElementById("demo").innerHTML = text;
+            }
+            </script>
+
+        <p>Click "Try it". Wait 3 seconds, and the page will alert "Hello".</p>
+
+        <button onclick="setTimeout(myFunction, 3000);">Try it</button>
+        
+        <script>
+        function myFunction() {
+          alert('Hello');
+        }
+        </script>
+        
         <p id="Yes">Would you like to learn more?</p>
         <button id="button">Yes</button>
         <script src="app.js"></script>
