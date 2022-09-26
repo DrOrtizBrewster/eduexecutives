@@ -11,7 +11,8 @@ body {
 nav {
     overflow: hidden;
     background-color: rgb(24, 9, 106);
-    max-width: 75%;
+    width: 100%;
+    overflow: auto;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -24,20 +25,31 @@ nav a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
+    width: 25%;
   }
+  @media screen and (max-width: 500px) {
+    .nav a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: center; 
+      color: #f2f2f2;
+      font-size: 17px;
+    }
 nav a:hover {
     background-color: rgb(172, 135, 3);
     color: black;
   }
 h1 {
-    text-align: center
-    font-size: 5em
+    text-align: center;
+    font-size: 5em;
     margin-left: auto;
     margin-right: auto;
 }
 h2 {
-    text-align: center
-    font-size: 5em
+    text-align: center;
+    font-size: 5em;
     margin-left: auto;
     margin-right: auto;
 }
@@ -83,6 +95,6 @@ footer {
 }
 p {
     text-align: center;
-    color: white
-    float: margin-right
+    color: white;
+    float: margin-right;
 }
