@@ -1,7 +1,7 @@
-let traditional = "Yes";
-let otherTraditional = "yes";
-let virtual = "No";
-let othervirtual = "no";
+let Yes = "Yes";
+let otherYes = "yes";
+let No = "No";
+let no = "no";
 
 let LearnMore = prompt("Would you like to learn more?");
 if (LearnMore =="Yes") {
