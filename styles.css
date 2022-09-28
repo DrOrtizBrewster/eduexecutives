@@ -1,89 +1,97 @@
-header {
+body {
     background-color: none;
     text-align: center;
-    padding: 20px;
 }
-body {
-    background-color: white
+header {
+    background-color: white;
+    text-align: center;
+    padding: none;
 }
 nav {
-    overflow: hidden;
-    background: rgb(24, 9, 106, 0.8);
-    width: 100%;
-    overflow: auto;
+    background-color: yellowgreen;
+    text-align: center;
     height: auto;
+    width: 850px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
-    opacity: 2.0;
-  }
+    max-width: 100%;
+}
 nav a {
-    float: none;
-    display: block;
-    color: #f2f2f2;
+    float: center;
+    display: inline;
+    color: black;
     text-align: center;
-    padding: none;
-    text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     width: 25%;
-  }
+    background-color: yellowgreen;
+    text-decoration: none;
+    font-style: normal;    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 nav a:hover {
     background-color: rgb(172, 135, 3);
     color: greenyellow;
-    text-decoration: none;
+    text-decoration: underline;
+    display: inline;
 }
-  @media screen and (max-width: 500px) {
-.nav a {
-      float: none;
-      display: block;
-      width: 100%;
-      text-align: center; 
-      color: #f2f2f2;
-      font-size: 17px;
- }
 h1 {
-    text-align: center;
+    text-align:center;
     font-weight: bold;
-    font: 36pt serif 
+    font-size: 30px;
     margin-left: auto;
     margin-right: auto;
 }
 img {
-    max-width: 100%;
-    text-align: center;
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    border-width: 25px 10px 4px 35px;
-    border-color: DodgerBlue;
-    border-style: ridge;
+  height: 50%;
+  width: 70%;
+  border: 10px;
+  border-color: yellowgreen;
+  border-style: ridge;
+  border-radius: 20px;
+  text-align: center;
+}
+ul {
+  height: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  font-style: italic;
+  padding: 60px;
+  width: 100%;
 }
 li {
-    overflow: hidden;
-    background-color: greenyellow;
-    height: auto;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    float: center;
-    display: block;
-    text-decoration: none;
-    font-style: italic 
+  height: 100%;
+  text-align: center;
+  font-style: none;
+  color: black;
 }
-footer {
-    text-align: center;
-    padding: 10px;
-    color: white;
-    overflow: hidden;
-    background-color: rgb(24, 9, 106);
-    max-width: 75%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
+a {
+  height: 100%;
+  text-align: left;
+  text-decoration: none;
+  font-style: none;
+  color: black;
 }
 p {
-    text-align: center;
-    color: white;
-    float: center;
-} 
+  text-align: center;
+  color:  rgb(14, 5, 95);
+  float: center;
+}
+footer {
+  overflow: hidden;
+  background-color: yellowgreen;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  max-width: 100%;
+}
