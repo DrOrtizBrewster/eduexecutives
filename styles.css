@@ -6,6 +6,9 @@ header {
     background-color: white;
     text-align: center;
     padding: none;
+    color: teal;
+    font-size: 20px;
+
 }
 nav {
     background-color: yellowgreen;
