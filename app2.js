@@ -1,4 +1,5 @@
- let LearnMore = prompt("Would you like to learn more?");
+function askQuestion(){
+    let LearnMore = prompt("Would you like to learn more?");
     if (LearnMore.toLowerCase() == "yes") {
         document.write("Super, Dr. Ortiz-Brewster will call you soon.");
     } else if (LearnMore.toLowerCase() == "no") {
@@ -6,3 +7,4 @@
     } else  {
         document.write("Let us know if we can be of assistance.");
     }
+}
