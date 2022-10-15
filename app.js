@@ -17,10 +17,10 @@ function virtualOption(){
         if (virtualQuestion.toLowerCase() == "1986") {
             alert("You are brilliant!");
             unanswered = false
-        } else if (virtualQuestion.toLowerCase() == "1990") {
-            alert("Sorry, that is incorrect. Please try again.");
+        //} else if (virtualQuestion.toLowerCase() == "1990") {
+         //   alert("Sorry, that is incorrect. Please try again.");
         } else  {
-            alert("Sorry, that is incorrect.");
+            alert("Sorry, that is incorrect. Please try again.");
           //  virtualQuestion();
         }
     }
